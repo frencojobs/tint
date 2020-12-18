@@ -18,7 +18,7 @@ void main() {
 
 Run it inside a terminal, and you'll get something this.
 
-<img src="https://imgur.com/7AOVfu9" />
+<img src="https://i.imgur.com/7AOVfu9.png" />
 
 ## Installation
 
@@ -95,7 +95,7 @@ Tint is an alternative to,
 
 ## Acknowledgement
 
-Node's [chalk](https://github.com/chalk/chalk) is the library that inspired tint the most but the naming of the APIs such as `onMagenta` instead of `bgMagenta` and certain aspects of the library are mostly influenced by the [console](https://github.com/mitsuhiko/console) crate from Rust. The [ansicolor](https://pub.dev/packages/ansicolor) and [ansi_styles](https://pub.dev/packages/ansi_styles) packages also provide the same functionality but with a different delivery for the usage. I personally find this extension way more syntatically fun to use.
+Node's [chalk](https://github.com/chalk/chalk) is the library that inspired tint the most but the naming of the APIs such as `onMagenta` instead of `bgMagenta` and certain aspects of the library are mostly influenced by the [console](https://github.com/mitsuhiko/console) crate from Rust. The [ansicolor](https://pub.dev/packages/ansicolor) and [ansi_styles](https://pub.dev/packages/ansi_styles) packages also provide the same functionality but with a different delivery for the usage. But I personally find extension methods syntactically more fun to use.
 
 ## License
 
