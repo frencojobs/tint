@@ -18,7 +18,7 @@ void main() {
 
 Run it inside a terminal, and you'll get something this.
 
-<img src="https://imgur.com/7AOVfu9" />
+<img src="https://i.imgur.com/7AOVfu9.png" />
 
 ## Installation
 
