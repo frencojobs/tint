@@ -223,22 +223,11 @@ extension Tint on String {
   /// Returns default string if ANSI is not supported.
   String gray() => brightBlack();
 
-  /// Format this string with ANSI to be colored bright black or gray or grey.
-  ///
-  /// Returns default string if ANSI is not supported.
-  String grey() => brightBlack();
-
   /// Format this string with ANSI adding a bright black
   /// or gray or grey background color.
   ///
   /// Returns default string if ANSI is not supported.
   String onGray() => onBrightBlack();
-
-  /// Format this string with ANSI adding a bright black
-  /// or gray or grey background color.
-  ///
-  /// Returns default string if ANSI is not supported.
-  String onGrey() => onBrightBlack();
 
   // Color Methods
   /// Format this string with ANSI setting it's color the value defined
