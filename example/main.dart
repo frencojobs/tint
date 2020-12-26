@@ -12,7 +12,7 @@ void main() {
   final hidden = 'hidden'.hidden();
   final strikethrough = 'strikethrough'.strikethrough();
   // Foreground Colors
-  final black = 'black'.black();
+  final black = 'black'.black().onWhite();
   final red = 'red'.red();
   final green = 'green'.green();
   final yellow = 'yellow'.yellow();
@@ -22,46 +22,53 @@ void main() {
   final white = 'white'.white();
   final gray = 'gray'.gray();
   // Background Colors
-  final onBlack = 'onBlack'.onBlack();
+  final onBlack = 'onBlack'.white().onBlack();
   final onRed = 'onRed'.onRed();
   final onGreen = 'onGreen'.onGreen();
-  final onYellow = 'onYellow'.onYellow();
+  final onYellow = 'onYellow'.black().onYellow();
   final onBlue = 'onBlue'.onBlue();
   final onMagenta = 'onMagenta'.onMagenta();
   final onCyan = 'onCyan'.onCyan();
-  final onWhite = 'onWhite'.onWhite();
+  final onWhite = 'onWhite'.black().onWhite();
   final onGray = 'onGray'.onGray();
 
   final all = [
-    bold,
-    dim,
-    italic,
-    underline,
-    blink,
-    inverse,
-    hidden,
-    strikethrough,
-    black,
-    red,
-    green,
-    yellow,
-    blue,
-    magenta,
-    cyan,
-    white,
-    gray,
-    onBlack,
-    onRed,
-    onGreen,
-    onYellow,
-    onBlue,
-    onMagenta,
-    onCyan,
-    onWhite,
-    onGray
+    [
+      bold,
+      dim,
+      italic,
+      underline,
+      blink,
+      inverse,
+      hidden,
+      strikethrough,
+    ],
+    [
+      black,
+      red,
+      green,
+      yellow,
+      blue,
+      magenta,
+      cyan,
+      white,
+      gray,
+    ],
+    [
+      onBlack,
+      onRed,
+      onGreen,
+      onYellow,
+      onBlue,
+      onMagenta,
+      onCyan,
+      onWhite,
+      onGray
+    ]
   ];
 
-  stdout.writeln(all.join(' '));
-  // stripped
-  stdout.writeln(all.join(' ').strip());
+  stdout.writeln();
+  stdout.writeln(all.map((x) => x.join(' ')).join('\n'));
+  // ^ add `.strip()` after join to remove all formattings
+  stdout.writeln();
 }
