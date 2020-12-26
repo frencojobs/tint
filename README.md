@@ -2,6 +2,8 @@
 
 Tint is a library for terminal string styling extended upon Dart's `String` type.
 
+<br>
+
 ## Overview
 
 ```dart
@@ -20,13 +22,19 @@ Run it inside a terminal, and you'll get something this.
 
 <img src="https://i.imgur.com/7AOVfu9.png" />
 
+<br>
+
 ## Installation
 
 Install the latest version of tint as a dependency as shown in [pub.dev](https://pub.dev/packages/tint).
 
+<br>
+
 ## API Documentation
 
 For reference, all of the available APIs will be used as an example in the `example/main.dart` file.
+
+<br>
 
 **Foreground Colors**
 
@@ -47,6 +55,8 @@ For reference, all of the available APIs will be used as an example in the `exam
 - `brightCyan`
 - `brightWhite`
 
+<br>
+
 **Background Colors**
 
 - `onBlack`
@@ -66,6 +76,8 @@ For reference, all of the available APIs will be used as an example in the `exam
 - `onBrightCyan`
 - `onBrightWhite`
 
+<br>
+
 **Attributes**
 
 - `bold`
@@ -75,6 +87,8 @@ For reference, all of the available APIs will be used as an example in the `exam
 - `blink`
 - `inverse`
 - `strikethrough`
+
+<br>
 
 **Dynamic Colors**
 
@@ -86,6 +100,8 @@ For reference, all of the available APIs will be used as an example in the `exam
 - `reset` (reset the color using ANSI code)
 - `strip` (remove all ANSI codes)
 
+<br>
+
 ## Alternatives
 
 Tint is an alternative to,
@@ -93,9 +109,13 @@ Tint is an alternative to,
 - [ansi_styles](https://pub.dev/packages/ansi_styles)
 - [ansicolor](https://pub.dev/packages/ansicolor)
 
+<br>
+
 ## Acknowledgement
 
 Node's [chalk](https://github.com/chalk/chalk) is the library that inspired tint the most but the naming of the APIs such as `onMagenta` instead of `bgMagenta` and certain aspects of the library are mostly influenced by the [console](https://github.com/mitsuhiko/console) crate from Rust. The [ansicolor](https://pub.dev/packages/ansicolor) and [ansi_styles](https://pub.dev/packages/ansi_styles) packages also provide the same functionality but with a different delivery for the usage. But I personally find extension methods syntactically more fun to use.
+
+<br>
 
 ## License
 
