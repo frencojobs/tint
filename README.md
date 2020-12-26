@@ -18,9 +18,11 @@ void main() {
 }
 ```
 
-Run it inside a terminal, and you'll get something this.
+The snippet will produce an underlined blue text on a white background once you run it inside a terminal.
 
-<img src="https://i.imgur.com/7AOVfu9.png" />
+The example at `example/main.dart` file contains examples for all APIs. Try running it and you'll get something this.
+
+<img src="https://i.imgur.com/raO2b4J.png" />
 
 <br>
 
