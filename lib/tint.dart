@@ -5,6 +5,7 @@ export 'src/supports_ansi.dart'
     if (dart.library.io) 'src/supports_ansi_io.dart'
     if (dart.library.html) 'src/supports_ansi_web.dart';
 
+/// An extension on [String] by Tint.
 extension Tint on String {
   // Foreground Colors
   /// Format this string with ANSI to be colored black.
