@@ -95,6 +95,8 @@ For reference, all of the available APIs will be used as an example in the `exam
 - `rgb({int r, int g, int b})`
 - `onRgb({int r, int g, int b})`
 
+<br>
+
 **Utilities**
 
 - `reset` (reset the color using ANSI code)
