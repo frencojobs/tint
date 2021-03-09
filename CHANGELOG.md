@@ -1,3 +1,7 @@
+## 2.0.0
+
+- Update versions & fully migrate to null safety
+
 ## 2.0.0-nullsafety.1
 
 - Update example
