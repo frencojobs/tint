@@ -4,7 +4,7 @@ import 'supports_ansi.dart'
 
 /// Formats a string if ansi escape sequences are supported.
 String Function(String) format(dynamic start, dynamic end) =>
-    (x) => !supportsAnsiColor ? '' : '\x1B[${start}m$x\x1B[${end}m';
+    (x) => !supportsAnsiColor ? x : '\x1B[${start}m$x\x1B[${end}m';
 
 /// Converts an rgb value of given [r], [g] and [b] int values
 /// to an ANSI usable color.
