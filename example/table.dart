@@ -1,4 +1,5 @@
 import 'dart:io' show stdout;
+
 import 'package:tint/tint.dart';
 
 void main() {
@@ -11,17 +12,21 @@ void main() {
         final n = r * 36 + g * 6 + b + 16;
         final l = ' ${n.toString().padLeft(3, '0')} ';
 
-        buffer.write(l.onRgb(
-          r: ((r / 5) * 225).toInt(),
-          g: ((g / 5) * 225).toInt(),
-          b: ((b / 5) * 225).toInt(),
-        ));
+        buffer.write(
+          l.onRgb(
+            r: ((r / 5) * 225).toInt(),
+            g: ((g / 5) * 225).toInt(),
+            b: ((b / 5) * 225).toInt(),
+          ),
+        );
 
-        buffer.write(l.rgb(
-          r: ((r / 5) * 225).toInt(),
-          g: ((g / 5) * 225).toInt(),
-          b: ((b / 5) * 225).toInt(),
-        ));
+        buffer.write(
+          l.rgb(
+            r: ((r / 5) * 225).toInt(),
+            g: ((g / 5) * 225).toInt(),
+            b: ((b / 5) * 225).toInt(),
+          ),
+        );
       }
       buffer.writeln();
     }

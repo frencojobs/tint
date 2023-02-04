@@ -1,6 +1,7 @@
 library tint;
 
-import 'src/helpers.dart';
+import 'package:tint/src/helpers.dart';
+
 export 'src/supports_ansi.dart'
     if (dart.library.io) 'src/supports_ansi_io.dart'
     if (dart.library.html) 'src/supports_ansi_web.dart';
