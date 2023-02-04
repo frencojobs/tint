@@ -1,3 +1,7 @@
+## 2.0.1
+
+- Fix to make it work on non ANSI terminals
+
 ## 2.0.0
 
 - Update versions & fully migrate to null safety
