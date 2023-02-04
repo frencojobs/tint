@@ -118,9 +118,3 @@ Tint is an alternative to,
 ## Acknowledgement
 
 Node's [chalk](https://github.com/chalk/chalk) is the library that inspired tint the most but the naming of the APIs such as `onMagenta` instead of `bgMagenta` and certain aspects of the library are mostly influenced by the [console](https://github.com/mitsuhiko/console) crate from Rust. The [ansicolor](https://pub.dev/packages/ansicolor) and [ansi_styles](https://pub.dev/packages/ansi_styles) packages also provide the same functionality but with a different delivery for the usage. But I personally find extension methods syntactically more fun to use.
-
-<br>
-
-## License
-
-MIT © Frenco Jobs
