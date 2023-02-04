@@ -8,11 +8,12 @@ String Function(String) format(dynamic start, dynamic end) =>
 
 /// Converts an rgb value of given [r], [g] and [b] int values
 /// to an ANSI usable color.
-int rgbToAnsiCode(int r, int g, int b) => (((r.clamp(0, 255) / 255) * 5).toInt() * 36 +
-        ((g.clamp(0, 255) / 255) * 5).toInt() * 6 +
-        ((b.clamp(0, 255) / 255) * 5).toInt() +
-        16)
-    .clamp(0, 256);
+int rgbToAnsiCode(int r, int g, int b) =>
+    (((r.clamp(0, 255) / 255) * 5).toInt() * 36 +
+            ((g.clamp(0, 255) / 255) * 5).toInt() * 6 +
+            ((b.clamp(0, 255) / 255) * 5).toInt() +
+            16)
+        .clamp(0, 256);
 
 /// Regular Expression pattern for all possible types of ANSI escape
 /// sequences in a [String].

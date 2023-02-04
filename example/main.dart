@@ -55,7 +55,17 @@ void main() {
       white,
       gray,
     ],
-    [onBlack, onRed, onGreen, onYellow, onBlue, onMagenta, onCyan, onWhite, onGray]
+    [
+      onBlack,
+      onRed,
+      onGreen,
+      onYellow,
+      onBlue,
+      onMagenta,
+      onCyan,
+      onWhite,
+      onGray
+    ]
   ];
 
   stdout.writeln();
